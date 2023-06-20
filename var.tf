@@ -7,13 +7,13 @@ variable "aws_region" {
 variable "aws_access_key" {
   description = "access_key"
   type        = string
-  default     = "AKIAWWACO5SD7WUOWLZF"
+  default     = "********"
 }
 
 variable "aws_secret_key" {
   description = "secret_key"
   type        = string
-  default     = "/R9EQYCoXfOaBHd9G6vfvbU2L6hourVho4el//Rb"
+  default     = "*****"
 }
 variable "cidr" {
   type        = string
